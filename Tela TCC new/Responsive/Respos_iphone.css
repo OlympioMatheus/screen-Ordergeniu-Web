@@ -1,0 +1,85 @@
+/* Estilo global, aplicável a todas as resoluções */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* iPhone SE (2020), iPhone 8 e similares (375px de largura) */
+@media (max-width: 375px) {
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* iPhone 12, iPhone 12 Pro (390px de largura) */
+@media (min-width: 376px) and (max-width: 390px) {
+    body {
+        background-color: red;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+
+/* iPhone 12 Pro Max (428px de largura) */
+@media (min-width: 391px) and (max-width: 428px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* Android phones como Google Pixel 5, Samsung Galaxy S20 (412px de largura) */
+@media (min-width: 429px) and (max-width: 412px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 19px;
+    }
+}
+
+/* iPad e tablets Android comuns (768px de largura) */
+@media (min-width: 413px) and (max-width: 768px) {
+    body {
+        background-color: lightseagreen;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}

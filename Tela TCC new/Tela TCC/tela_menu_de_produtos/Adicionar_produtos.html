@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos_css/Adicionar_produtos.css">
+    <link rel="shortcut icon" type="menu.ico" href="/Tela TCC/Imagens_tcc/icone de menu.ico" />
+    <link rel="stylesheet" href="/Responsive/Respos_iphone.css">
+    <title>Adicionar produto(s)</title>
+</head>
+
+<body>
+    <form>
+        <button class="botao_sair" id="botao_sair">
+            <img class="seta_sair" id="seta_sair" src="/Tela TCC/Imagens_tcc/Voltar.png">
+        </button>
+        <h3>Dados do produto</h3>
+        <div>
+            <label for="Nome_prod">Nome:</label>
+            <input type="text" name="produto" />
+        </div>
+        <div>
+            <label for="Nome_prod">Categoria:</label>
+            <select name="Categoria" class="categoria">Categoria
+                <option value="categoria"> -- Escolha a Categoria -- </option>
+                <option value="comidas" class="Comidas" id="comidas">Comidas</option>
+                <option value="bebidas" class="bebidas" id="bebidas">Bebidas</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Nome_prod" class="Nome_prod" id="">validade:</label>
+            <input type="datetime-local" name="validade" />
+        </div>
+
+        <div>
+            <label for="id_prod">Código:</label>
+            <input type="text" name="cd_barras" />
+        </div>
+
+        <div>
+            <label for="Nome_prod">Preço:</label>
+            <input type="text" name="preco" />
+        </div>
+
+        <div>
+            <label for="Nome_prod">Quantidade:</label>
+            <input type="number" name="Quantidade" />
+        </div>
+
+        <div>
+            <label for="Nome_prod">Origem:</label>
+            <input type="text" name="Origem_produto" />
+        </div>
+        <div>
+            <button class="bt_cancelar" type="submit">
+                <img class="img_bt_can" src="/Tela TCC/imagens_tcc/cancelar.png">
+                <label for=" salvar_prod">Cancelar</label>
+            </button>
+            <button class="bt_salvar" type="reset">
+                <img class="img_bt_slv" src="/Tela TCC/imagens_tcc/salvar.png">
+                <label for=" salvar_prod">Salvar</label>
+            </button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
